@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website</title>
+    <style>
+        .cpu {
+            width: 300px;
+            height: 200px;
+            background-color: indigo;
+            color: white;
+            text-align: center;
+        }
+
+        @media only screen and (max-width:688px) {
+            .cpu {
+                background-color: thistle;
+                text-align: end;
+            }
+        }
+
+        @media only screen and (min-width:689px) and (max-width:992px) {
+            .cpu {
+                background-color: palegreen;
+                text-align: start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is Responsive website site</h2>
+    <div class="cpu">
+        <h3>Central Processing Unit</h3>
+    </div>
+</body>
+
+</html>

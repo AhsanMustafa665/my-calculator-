@@ -1,0 +1,39 @@
+.title{
+    text-align: center;
+    margin-top:20px ;
+    background-image: url(./images.png);
+    color: hotpink;
+  
+}
+.calculator{
+    height: 360px;
+    width: 280px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid steelblue;
+    border-radius: 14px;
+}
+.main-bar{
+    margin-bottom:10px ;
+    text-align: right;
+}
+.btn{
+    font-size: 20px;
+    width: 61px;
+    background-color: darkgray;
+}
+.extra-btn{
+    background-color: rgb(136, 136, 168);
+}
+.line{
+    margin-bottom: 10px;
+}
+.last-btn input{
+    width: 126px;
+}
+#inp{
+    font-size: 30px;
+    font-weight: bold;
+}
